@@ -10,14 +10,15 @@
 </head>
 
 <body>
-    <h1>Welcome to Billy Beer</h1>
-    <div>
-        <section>
-            <h2>Main Header</h2>
-            <header>
-                <nav>
-                    <h2>Main Navigation</h2>
-                    <div>
+    <h1 class="hidden">Welcome to Billy Beer!</h1>
+    <div id="sticky-nav-con">
+        <section id="header" class="full-width-grid-con">
+            <h2 class="hidden">Main Header</h2>
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <button id="button"></button>
+                    <div id="burger-con">
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">About us</a></li>
@@ -26,59 +27,87 @@
                         </ul>
                     </div>
                 </nav>
-                <div>
-                    <img src="images/billy_black.svg" alt="Billy Beer Logo">
+                <div id="logo" class="col-start-2 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4">
+                    <img src="images/billy_black.svg" alt="Billy Beer All Black Logo">
                 </div>
             </header>
         </section>
     </div>
     <main>
         <!--Hero Image & Text-->
-        <section>
-            <h2>Billy's Introduction</h2>
-            <div>
+        <section class="grid-con hero">
+            <h2 class="hidden">Billy's Introduction</h2>
+            <div class="col-start-2 m-col-span-6 l-col-span-6 ">
                 <img src="images/billyhero.png" alt="Hero Image">
             </div>
-            <div>
+            <div class="col-span-4 m-col-span-6 l-col-span-6">
                 <h2>Billy's Story</h2>
-                <p>Billy Beer is back with a fresh new look!
+                <p class="txt-box">Billy Beer is back with a fresh new look!
                     We present to you the redesigned version of Billy's logo, updated color scheme, and improved taste.
                     This redesigned version of Billy Beer is set to reclaim its former position in the market and serve
                     the highest quality beer with exciting new flavors.</p>
             </div>
         </section>
 
-        <article>
-            <div>
+        <article class="grid-con billy bg">
+            <div class="col-span-full m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7 txt-box">
                 <h2>Billy's Mission</h2>
-                <p> We are committed to provide our customer with an unexceptional experience through new flavors and
+                <p class="txt-box col-span-full m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-6"> We are committed
+                    to provide our customer with an unexceptional experience through new flavors and
                     design and bring people together with every sip of Billy. </p>
             </div>
-            <div>
+            <div class="col-span-full m-col-start-7 m-col-end-13 l-col-span-6 txt-box">
                 <h2>Billy's Vision</h2>
-                <p>Our vision is to make ourself the go-to-beer choice to all the new beer lover customers and remain
+                <p class="txt-box col-span-full m-col-start-6 m-col-end-13 l-col-start-7 l-col-end-13">Our vision is to
+                    make ourself the go-to-beer choice to all the new beer lover customers and remain
                     consistent to our loyal customers.</p>
             </div>
         </article>
+
+        <section class="grid-con bg">
+            <h2 class="col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-start-6 l-col-end-9">Customer review</h2>
+        </section>
+
+        <section class="grid-con bg">
+            <h2 class="hidden">Customer Review</h2>
+
+            <div class="col-span-4 m-col-span-4 l-col-span-4">
+                <img src="images/review1.png" alt="Review 1" class="review-image">
+                <h3 class="review-1">Ronald Harris</h3>
+            </div>
+
+            <div class="col-span-4 m-col-span-4 l-col-span-4">
+                <img src="images/review2.png" alt="Review 2" class="review-image">
+                <h3 class="review-2">Sarah Vacarello</h3>
+            </div>
+
+            <div class="col-span-4 m-col-span-4 l-col-span-4">
+                <img src="images/review3.png" alt="Review 3" class="review-image">
+                <h3 class="review-3">Ivan Watson</h3>
+            </div>
+            <div class="customer-review col-span-full m-col-span-full">
+                <p>Click here to read reviews</p>
+            </div>
+        </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <div>
-            <h3>Footer Navigation</h3>
-            <ul>
+    <footer class="footer grid-con">
+        <div class="col-span-full">
+            <h3 class="hidden">Footer Navigation</h3>
+            <ul class="footer-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="sales.html">Sales</a></li>
                 <li><a href="contact.html">Contact us</a></li>
             </ul>
         </div>
-        <div>
-            <h3>Find us at:</h3>
+        <div class="footer-icons col-span-full">
+            <h3 class="footer-txt">Find us at:</h3>
             <img src="images/facebookicon.svg" alt="facebook icon">
             <img src="images/instagramicon.svg" alt="instagram icon">
             <img src="images/whatsapp.png" alt="whatsapp icon">
             <img src="images/twittericon.svg" alt="twitter icon">
-            <p><i>www.billybeer.com</i></p>
+            <p class="website"><i>www.billybeer.com</i></p>
             <p>All Content Copyright &copy; 2025 Billy Beer.</p>
         </div>
     </footer>
