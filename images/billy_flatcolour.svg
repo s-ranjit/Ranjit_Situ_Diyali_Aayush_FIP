@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1098.46 577.79">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: VladimirScript, 'Vladimir Script';
+        font-size: 71.3px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fbb03b;
+      }
+
+      .cls-3 {
+        font-family: ArialMT, Arial;
+        font-size: 117.91px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #f4ed00;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-2" points="162.43 319.46 82.13 366.38 82.13 36.88 162.43 36.88 162.43 319.46"/>
+    <polygon class="cls-2" points="148.87 426.86 96.73 385.15 255.23 280.88 323.01 323.63 148.87 426.86"/>
+    <polygon class="cls-2" points="82.41 37.25 169.12 0 153.04 73.37 106.17 113.88 82.41 37.25"/>
+    <polygon class="cls-2" points="254.47 105.03 330.31 69.2 336.56 142.19 254.19 201.63 254.47 105.03"/>
+    <polygon class="cls-2" points="339.77 241.27 323.24 323.5 254.19 280.88 253.95 201.76 339.77 241.27"/>
+    <polygon class="cls-2" points="152 77.54 167.55 .36 330.49 69.11 256.27 104.65 152 77.54"/>
+  </g>
+  <g id="I">
+    <polygon class="cls-2" points="425.88 426.57 343.5 353.61 365.83 243.88 413.25 190.28 425.88 426.57"/>
+    <polygon class="cls-4" points="413.18 90.96 426.54 134.07 471.66 133.45 434.79 159.47 449.32 202.2 413.18 175.17 377.04 202.2 391.58 159.47 354.7 133.45 399.83 134.07 413.18 90.96"/>
+  </g>
+  <g id="L">
+    <polygon class="cls-2" points="531.51 347.71 453.27 424.01 480 143.88 554.65 91.56 531.51 347.71"/>
+    <polygon class="cls-2" points="462.77 426.8 533.35 358.51 671.09 353.41 633.52 426.8 462.77 426.8"/>
+  </g>
+  <g id="L2">
+    <polygon class="cls-2" points="768.22 352.83 689.98 429.12 716.72 149 791.37 96.68 768.22 352.83"/>
+    <polygon class="cls-2" points="699.49 431.92 770.06 363.63 907.8 358.53 870.24 431.92 699.49 431.92"/>
+  </g>
+  <g id="Y">
+    <polygon class="cls-2" points="943.46 249.68 814.49 181.67 859.93 110.21 995.46 216.68 943.46 249.68"/>
+    <polygon class="cls-2" points="1005.71 427.16 931.77 402.51 943.27 249.49 995.46 216.68 1005.71 427.16"/>
+    <polygon class="cls-2" points="1004.07 216.83 966.27 187.25 1032 100.16 1098.46 117.31 1004.07 216.83"/>
+  </g>
+  <text class="cls-1" transform="translate(60.67 340.76) rotate(-89.21)"><tspan x="0" y="0">Since 1977</tspan></text>
+  <text class="cls-3" transform="translate(604.55 539.51) scale(1.28 1)"><tspan x="0" y="0">BEER</tspan></text>
+</svg>
