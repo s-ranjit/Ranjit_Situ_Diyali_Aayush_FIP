@@ -309,3 +309,44 @@ footer img {
     font-size: 17px;
  }
  }
+
+ .contact h2{
+   margin: 30px 0px;
+   color: #fbb03b;
+ }
+ .contact-form {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 720px;
+   padding: 20px;
+ }
+ .contact .form-group label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ .contact button[type="submit"] {
+   padding: 10px;
+   background-color: #fbb03b;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+   margin-top: 15px;
+ }
+ 
+ .contact button[type="submit"]:hover {
+   background-color: #e0b63a;
+ }
+ .contact-form input,
+ .contact-form textarea {
+   width: 100%;
+   padding: 7px;
+ }
+ .contact-info h3 {
+   margin-top: 20px;
+ }
+ .contact-info p {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
