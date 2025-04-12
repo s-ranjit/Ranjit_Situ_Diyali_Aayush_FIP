@@ -15,7 +15,7 @@
         <section id="header" class="full-width-grid-con">
             <h2 class="hidden">Main Header</h2>
             <header class="grid-con" id="main-header">
-                <nav id="main-nav" class="col-span-full m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">
+                <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11 l-col-start-4 l-col-end-11">
                     <h2 class="hidden">Main Navigation</h2>
                     <button id="button"></button>
                     <div id="burger-con">
@@ -28,17 +28,29 @@
                     </div>
                 </nav>
                 <div id="logo" class="col-start-2 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4">
-                    <img src="images/billy_black.svg" alt="Billy Beer All Black Logo">
+                    <a href="index.html"><img src="images/billy_black.svg" alt="Billy Beer All Black Logo"></a>
                 </div>
+                <button class="nav-btn m-col-start-11 m-col-end-12 l-col-start-11 l-col-end-13">Explore
+                    Flavours</button>
             </header>
         </section>
     </div>
     <main>
+        <div class="grid-con" id="container">
+            <div class="col-span-full contact-hero">
+                <img sizes=" (min-width: 900px) 1200px,
+            (min-width: 650px) 800px,
+            (min-width: 400px) 600px,
+            100vw" srcset="images/contact-hero_320.png 320w, 
+            images/contact-hero_1111.png 1111w, 
+            images/contact-hero_1200.png 1200w" src="images/contact-hero_320.png" alt="Contact Hero Image">
+            </div>
+        </div>
 
         <section class="grid-con contact">
-            <h2 class="col-start-2 col-end-4 m-col-start-5 m-col-end-10">Get in Touch with Billy</h2>
-        
-            <div class=" col-span-4 m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-7 contact-form ">
+            <h2 class="col-span-full m-col-start-5 m-col-end-10">Get in Touch with Billy</h2>
+
+            <div class="col-start-1 col-end-5 m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-7 contact-form ">
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -52,11 +64,11 @@
                     <button type="submit">Send Message</button>
                 </form>
             </div>
-            <div class=" m-col-start-9 m-col-end-12 l-col-start-9 l-col-end-12 contact-info">
-                <h3 class="col-start-1 col-end-4">Contact Us</h3>
-                <p class="col-start-1 col-end-5 l-col-start-8 l-col-end-11">Billy Beer<br>130 Dundas Street<br>M9L 0R2
+            <div class="col-start-1 col-end-5 m-col-start-6 m-col-end-13 l-col-start-7 l-col-end-13 contact-info">
+                <h3>Contact Us</h3>
+                <p>Billy Beer<br>130 Dundas Street<br>M9L 0R2
                 </p>
-                <p class="col-start-1 col-end-4 l-col-start-8">Toll free: +1 123 456 789<br>Email: billybeer@gmail.com
+                <p>Toll free: +1 123 456 789<br>Email: billybeer@gmail.com
                 </p>
             </div>
         </section>
