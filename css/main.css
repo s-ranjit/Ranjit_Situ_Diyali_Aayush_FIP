@@ -360,3 +360,30 @@ footer img {
     margin-bottom: 20px;
   }
   /* contact ends */
+  /* Sales Page start */
+ .flavours h2 {
+   margin: 20px;
+ }
+ .products img {
+ margin-left: 20px;
+ }
+ .product-info p {
+   text-align: center;
+   font-size: 15px;
+ }
+ .product-info button {
+   background-color: #FBB03B;
+   color: white;
+   padding: 8px 14px;
+   text-decoration: none;
+   border-radius: 8px;
+   margin: 10px;
+   border: none;
+   cursor: pointer;
+   transition: transform 0.3s ease;
+   place-items: center;
+ }
+ .product-info button:hover {
+   background-color: darkorange;
+   transform: scale(1.1);
+ }
