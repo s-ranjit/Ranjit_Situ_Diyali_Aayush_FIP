@@ -38,27 +38,50 @@
     <main>
         <section class=" grid-con flavours">
             <h2 class="col-span-full">Newly launched flavours</h2>
-            <div class="products col-start-2 col-end-4">
-                <div class="product">
-                    <img src="" alt="Original Wheat Flavour">
-                    <p>Original Wheat Flavour</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product">
-                    <img src="" alt="Sweet Peach Flavour">
-                    <p>Sweet Peach Flavour</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product">
-                    <img src="" alt="Refreshing Mint Flavour">
-                    <p>Refreshing Mint Flavour</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="promo-btn">
-                <button>Click for Promo Details</button>
-            </div>
         </section>
+        <div class="grid-con" id="container">
+            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-2 l-col-end-4 products">
+                <img sizes=" (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            100vw" srcset="images/original_165.png 165w, 
+            images/original_265.png 265w, 
+            images/original_365.png 365w," src="images/original_165.png" alt="wheat">
+            </div>
+            <div class="product-info col-start-2 col-end-4">
+                <p>Original Wheat Flavour</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-5 l-col-end-9 products">
+                <img sizes=" (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            100vw" srcset="images/peach_165.png 165w, 
+            images/peach_265.png 265w, 
+            images/peach_365.png 365w," src="images/peach_165.png" alt="peach">
+            </div>
+            <div class="product-info col-start-2 col-end-4 l-col-start-5 l-col-end-9">
+                <p>Sweet Peach Flavour</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-9 l-col-end-13 products">
+                <img sizes=" (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            100vw" srcset="images/mint_165.png 165w, 
+            images/mint_265.png 265w, 
+            images/mint_365.png 365w," src="images/mint_165.png" alt="mint">
+            </div>
+            <div class="product-info col-start-2 col-end-4 l-col-start-9 l-col-end-13">
+                <p>Refreshing Mint Flavour</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="promo-btn">
+            <button>Click for Promo Details</button>
+        </div>
 
         <section class="promo-video">
             <video src=""></video>
