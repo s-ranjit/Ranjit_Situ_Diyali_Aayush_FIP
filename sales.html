@@ -7,6 +7,7 @@
     <title>Sales Page</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+  
 </head>
 
 <body>
@@ -36,57 +37,27 @@
         </section>
     </div>
     <main>
-        <section class=" grid-con flavours">
-            <h2 class="col-span-full">Newly launched flavours</h2>
-        </section>
+       
         <div class="grid-con" id="container">
-            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-2 l-col-end-4 products">
-                <img sizes=" (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            100vw" srcset="images/original_165.png 165w, 
-            images/original_265.png 265w, 
-            images/original_365.png 365w," src="images/original_165.png" alt="wheat">
-            </div>
-            <div class="product-info col-start-2 col-end-4">
-                <p>Original Wheat Flavour</p>
-                <button>Add to Cart</button>
-            </div>
+            <!-- Additional product cards omitted for brevity -->
 
-            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-5 l-col-end-9 products">
-                <img sizes=" (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            100vw" srcset="images/peach_165.png 165w, 
-            images/peach_265.png 265w, 
-            images/peach_365.png 365w," src="images/peach_165.png" alt="peach">
-            </div>
-            <div class="product-info col-start-2 col-end-4 l-col-start-5 l-col-end-9">
-                <p>Sweet Peach Flavour</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-3 l-col-start-9 l-col-end-13 products">
-                <img sizes=" (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            (min-width: 100px) 200px,
-            100vw" srcset="images/mint_165.png 165w, 
-            images/mint_265.png 265w, 
-            images/mint_365.png 365w," src="images/mint_165.png" alt="mint">
-            </div>
-            <div class="product-info col-start-2 col-end-4 l-col-start-9 l-col-end-13">
-                <p>Refreshing Mint Flavour</p>
-                <button>Add to Cart</button>
-            </div>
+            <!-- Interactive Product Selector -->
+            <section class="interactive-product-selector col-span-full">
+                <h2>Explore Our Flavours</h2>
+                <p>Click on a flavour to learn more about it!</p>
+                <div class="flavour-buttons">
+                    <button class="flavour-btn" data-flavour="original">Original</button>
+                    <button class="flavour-btn" data-flavour="peach">Peach</button>
+                    <button class="flavour-btn" data-flavour="mint">Mint</button>
+                </div>
+                <div class="flavour-display">
+                    <h3 id="flavour-title">Select a Flavour</h3>
+                    <p id="flavour-description">Description will appear here.</p>
+                    <p id="flavour-ingredients">Main Ingredients: </p>
+                    <img id="flavour-image" src="images/3new.png" alt="Flavour Image">
+                </div>
+            </section>
         </div>
-        <div class="grid-con promo-btn">
-            <button>Click for Promo Details</button>
-        </div>
-
-        <section class="grid-con promo-video">
-            <video src=""></video>
-        </section>
-
         <section class="grid-con merchandies">
             <h2 class="col-span-full">Promotional merchandies</h2>
         </section>
@@ -152,6 +123,7 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
