@@ -390,22 +390,22 @@ footer img {
    transform: scale(1.1);
  }
  /* for products */
- .interactive-product-selector {
+.interactive-product-selector {
    text-align: center;
-   margin: 2rem auto;
+   margin: 32px auto;
    max-width: 600px;
 }
 
 .flavour-buttons {
    display: flex;
    justify-content: center;
-   gap: 1rem;
-   margin-bottom: 1rem;
+   gap: 16px;
+   margin-bottom: 16px;
 }
 
 .flavour-btn {
-   padding: 0.5rem 1rem;
-   border: 2px solid #333;
+   padding: 8px 16px;
+   border: 2px solid #ff8c00;
    background-color: #fff;
    cursor: pointer;
    transition: transform 0.2s, background-color 0.2s;
@@ -423,29 +423,29 @@ footer img {
 
 .flavour-display {
    text-align: center;
-   margin-top: 1rem;
+   margin-top: 16px;
 }
 
 #flavour-title {
    color: #FBB03B;
-   font-size: 1.5rem;
-   margin-bottom: 0.5rem;
+   font-size: 24px;
+   margin-bottom: 8px;
 }
 
 #flavour-description {
-   font-size: 1rem;
-   margin-bottom: 0.5rem;
+   font-size: 16px;
+   margin-bottom: 8px;
 }
 
 #flavour-ingredients {
    font-style: italic;
-   margin-bottom: 1rem;
+   margin-bottom: 16px;
 }
 
 #flavour-image {
    max-width: 100%;
    height: auto;
-   border: 2px solid #333;
+   border: 2px solid #ff8c00;
    border-radius: 8px;
    transition: opacity 0.3s ease-in-out;
 }
@@ -453,5 +453,14 @@ footer img {
 @media (max-width: 600px) {
    .flavour-buttons {
        flex-direction: column;
+   }
+   
+}
+
+
+@media screen and (min-width: 1200px) {
+   .flavour-btn {
+       padding: 12px 24px; 
+       width: 400px; 
    }
 }
