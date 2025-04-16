@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+</head>
+
+<body>
+    <h1 class="hidden">Sales Billy</h1>
+    <div id="sticky-nav-con">
+        <section id="header" class="full-width-grid-con">
+            <h2 class="hidden">Main Header</h2>
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11 l-col-start-4 l-col-end-11">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <button id="button"></button>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="sales.html">Sales</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="logo" class="col-start-2 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4">
+                    <a href="index.html"><img src="images/billy_black.svg" alt="Billy Beer All Black Logo"></a>
+                </div>
+                <button class="nav-btn m-col-start-11 m-col-end-12 l-col-start-11 l-col-end-13">Explore
+                    Flavours</button>
+            </header>
+        </section>
+    </div>
+    <main>
+        <section class="promo-video">
+            <h2>Billy's Journey</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video/finnallllllvideoooo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+       
+
+        <div class="grid-con" id="container">
+           
+            <section class="interactive-product-selector col-span-full">
+                <h2>NEW FLAVOURS</h2>
+                <p>Click on a flavour to learn more about it!</p>
+                <div class="flavour-buttons">
+                    <button class="flavour-btn" data-flavour="original">Original</button>
+                    <button class="flavour-btn" data-flavour="peach">Peach</button>
+                    <button class="flavour-btn" data-flavour="mint">Mint</button>
+                </div>
+                <div class="flavour-display">
+                    <h3 id="flavour-title">Select a Flavour</h3>
+                    <p id="flavour-description">Description will appear here.</p>
+                    <p id="flavour-ingredients">Main Ingredients: </p>
+                    <img id="flavour-image" src="images/3new.png" alt="Flavour Image">
+                </div>
+            </section>
+        </div>
+        <section class="grid-con merchandise">
+            <h2 class="col-span-full">Promotional merchandise</h2>
+            <div class="col-start-2 col-end-4 m-col-span-4 l-col-span-4 promo">
+                <img sizes=" (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            (min-width: 100px) 200px,
+            100vw" srcset="images/cap_165.png 165w, 
+            images/cap_265.png 265w, 
+            images/cap_365.png 365w" src="images/cap_165.png" alt="cap">
+                <p class="prdct cap">Billy's Hat <br> $8.66</p>
+                <button class="prdctbtn">Add to Cart</button>
+            </div>
+
+            <div class="col-start-2 col-end-4 m-col-span-4 l-col-span-4 promo">
+                <img sizes=" (min-width: 100px) 200px,
+                (min-width: 100px) 200px,
+                (min-width: 100px) 200px,
+                100vw" srcset="images/opener_165.png 165w, 
+                images/opener_265.png 265w, 
+                images/opener_365.png 365w" src="images/opener_365.png" alt="opener">
+                <p class="prdct">Billy's Opener <br> $5.99</p>
+                <button class="prdctbtn">Add to Cart</button>
+            </div>
+
+            <div class="col-start-2 col-end-4  m-col-span-4 l-col-span-4 promo">
+                <img sizes=" (min-width: 100px) 200px,
+                (min-width: 100px) 200px,
+                (min-width: 100px) 200px,
+                100vw" srcset="images/beerglass_165.png 165w, 
+                images/beerglass_265.png 265w, 
+                images/beerglass_365.png 365w" src="images/beerglass_165.png" alt="beer-glass">
+                <p class="prdct">Billy's Special Glass <br> $12.99</p>
+                <button class="prdctbtn">Add to Cart</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer grid-con">
+        <div class="col-span-full">
+            <h3 class="hidden">Footer Navigation</h3>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer-icons col-span-full">
+            <h3 class="footer-txt">Find us at:</h3>
+            <img src="images/facebookicon.svg" alt="facebook icon">
+            <img src="images/instagramicon.svg" alt="instagram icon">
+            <img src="images/whatsapp.png" alt="whatsapp icon">
+            <img src="images/twittericon.svg" alt="twitter icon">
+            <p class="website"><i>www.billybeer.com</i></p>
+            <p>All Content Copyright &copy; 2025 Billy Beer.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
