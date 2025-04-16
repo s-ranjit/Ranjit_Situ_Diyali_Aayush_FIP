@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="wheat" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 621.9 429">
+  <defs>
+    <style>
+      .st0 {
+        fill: #edc10a;
+      }
+       #wheat_x5F_left, #wheat_x5F_right {
+        transition: transform 0.5s ease-in;
+        transform-origin: center;
+      }
+      #wheat:hover #wheat_x5F_left {
+      transform: translateY(50px) rotate(-90deg);
+      }
+      #wheat:hover #wheat_x5F_right {
+      transform: translateY(50px) rotate(90deg);
+      }
+      <script>
+    const wheat = document.querySelector("#wheat");
+
+    function logId() {
+	  console.log(this.id)
+    }
+
+    wheat.addEventListener("click", logId);
+    </script>
+    </style>
+  </defs>
+  <g id="wheat_x5F_left">
+    <path class="st0" d="M214.5,127.9s-28.4,27.8,0,55.3c0,0,26.9-24.6,0-55.3Z"/>
+    <path class="st0" d="M184,168.4s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M184,207s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M185,245s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M214.1,207.2s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <path class="st0" d="M214.1,246.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <rect class="st0" x="211.3" y="284" width="6.1" height="48.6" rx="3.1" ry="3.1"/>
+    <path class="st0" d="M214.1,284.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+  </g>
+  <g id="wheat_x5F_middle">
+    <path class="st0" d="M286.5,84.9s-28.4,27.8,0,55.3c0,0,26.9-24.6,0-55.3Z"/>
+    <path class="st0" d="M256,125.4s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M256,164s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M257,202s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M286.1,164.2s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <path class="st0" d="M286.1,203.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <rect class="st0" x="283.3" y="241" width="6.1" height="48.6" rx="3.1" ry="3.1"/>
+    <path class="st0" d="M286.1,241.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+  </g>
+  <g id="wheat_x5F_right">
+    <path class="st0" d="M358.5,127.9s-28.4,27.8,0,55.3c0,0,26.9-24.6,0-55.3Z"/>
+    <path class="st0" d="M328,168.4s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M328,207s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M329,245s-3.3,37.3,28.6,40.1c0,0,6.6-24-28.6-40.1Z"/>
+    <path class="st0" d="M358.1,207.2s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <path class="st0" d="M358.1,246.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+    <rect class="st0" x="355.3" y="284" width="6.1" height="48.6" rx="3.1" ry="3.1"/>
+    <path class="st0" d="M358.1,284.3s2.8-29.1,30.6-37.8c0,0,1.8,39.8-30.6,39.1"/>
+  </g>
+</svg>
