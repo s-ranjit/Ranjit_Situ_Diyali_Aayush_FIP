@@ -399,6 +399,7 @@ h2 {
 .merchandise h2{
   margin-bottom: 40px;
 }
+
 .promo {
   display: flex;
   flex-direction: column;
@@ -425,6 +426,9 @@ h2 {
   transform: scale(1.1);
 }
 /* for products */
+.interactive-product-selector h2 {
+font-size: 28px;
+}
 .interactive-product-selector {
   text-align: center;
   margin: 32px auto;
@@ -442,20 +446,28 @@ h2 {
 
 .flavour-btn {
   padding: 8px 16px;
-  border: 2px solid #FBB03B;
+  border: none;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #FBB03B;
   cursor: pointer;
   transition: transform 0.2s, background-color 0.2s;
 }
 
 .flavour-btn:hover {
   transform: scale(1.1);
-  background-color: #f0f0f0;
+  background-color:  #FDCC7F;
 }
 
 .flavour-btn.active {
-  background-color: #333;
+  background-color: #ff8c00;
+  color: #fff;
+}
+.peach.active {
+  background-color: #FF5733;
+  color: #fff;
+}
+.mint.active {
+  background-color: #006400;
   color: #fff;
 }
 
