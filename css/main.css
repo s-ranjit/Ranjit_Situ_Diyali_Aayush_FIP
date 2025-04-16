@@ -428,6 +428,17 @@ h2 {
   background-color: #ff8c00;
   transform: scale(1.1);
 }
+/* for svg icons */
+.svgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+}
 /* for products */
 .interactive-product-selector h2 {
 font-size: 24px;
