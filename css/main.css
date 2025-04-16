@@ -131,7 +131,7 @@ h2 {
    padding: 4px 16px;
 }
 .footer-nav a:hover {
-   color: #0056b3;
+   text-decoration: underline;
 }
 .footer-icons {
    text-align: center;
@@ -398,6 +398,7 @@ h2 {
  /* Sales Page start */
 .merchandise h2{
   margin-bottom: 40px;
+  font-size: 24px;
 }
 
 .promo {
@@ -427,7 +428,7 @@ h2 {
 }
 /* for products */
 .interactive-product-selector h2 {
-font-size: 28px;
+font-size: 24px;
 }
 .interactive-product-selector {
   text-align: center;
@@ -513,6 +514,12 @@ font-size: 28px;
       padding: 12px 24px; 
       width: 400px; 
   }
+  .promo-video h2 {
+    color: #FBB03B;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+ }
 }
 
 .promo-video {
@@ -525,11 +532,10 @@ font-size: 28px;
 
 .promo-video h2 {
    color: #FBB03B;
-   font-size: 24px;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   font-size: 28px;
+   margin-bottom: 30px;
+   padding-top: 30px;
 }
-
 .video-container {
    position: relative;
    padding-bottom: 56.25%;
